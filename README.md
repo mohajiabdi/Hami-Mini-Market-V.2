@@ -1,41 +1,39 @@
-# 🛒 Hami MiniMarket Landing Page
+# 🛍️ Hami MiniMarket Product Catalog
 ## 🌐 Project Overview
 
-The Hami MiniMarket Landing Page is a responsive website built as part of the HamiSkills Web Development Internship (Week 1 Task).
-It showcases a local mini-market that sells fresh fruits and vegetables, promoting healthy living and community support.
+The Hami MiniMarket Product Catalog is the Week 2 project for the HamiSkills Web Development Internship Track.
+It extends the previous landing page by adding a dynamic and responsive product catalog that allows users to search and filter products by name, category, and price range.
 
-The page gives visitors an overview of the market, a product showcase, and an easy way to contact the business.
+This project simulates a small-scale e-commerce product listing system, helping me practice JavaScript DOM manipulation, filter logic, and responsive UI layouts.
 
 
 ## 🎯 Project Purpose
 
-The goal of this project is to design and develop a clean, functional, and mobile-friendly landing page that:
+The goal of this project is to build a functional product catalog where customers can:
 
-Introduces Hami MiniMarket
+Browse fruits and vegetables
 
-Displays products (fruits & vegetables)
+Search products by name
 
-Encourages customers to visit or order
+Filter items by category or price
 
-Reflects professional web design standards
+Interact with an easy-to-use, mobile-friendly design
 
 ## 🧱 Features
 
-Responsive layout for all devices (desktop, tablet, mobile)
+Display of at least 8 products (name, image, price, and category)
 
-Navigation bar with logo and links
+🔍 Search bar for real-time product filtering by name
 
-Hero section with tagline and Sliding banner images (Carousal)
+🏷️ Category filter using buttons or dropdown (Fruits, Vegetables)
 
-Product showcase grid for fruits and vegetables
+💰 Price filter to show products below a selected range
 
-About section with a brief market description
+🛒 Optional Add to Cart button and cart counter
 
-Contact form with name, email,tel and message fields
+📱 Responsive design for desktop, tablet, and mobile
 
-Footer with social media links
-
-Interactive JavaScript feature (form Light/Dark Themes / back-to-top button)
+💡 Interactive JavaScript functionality for searching, filtering, and updating content dynamically
 
 ## 🖥️ Technologies Used
 
@@ -43,7 +41,7 @@ Interactive JavaScript feature (form Light/Dark Themes / back-to-top button)
 
 ### CSS3 (Flexbox & Grid) – for styling and responsiveness
 
-### JavaScript (Vanilla JS) – for interactivity and functionality
+### JavaScript (Dom Manipulation) – for interactivity and functionality
 
 ## 🚀 How to Run the Project
 
@@ -62,7 +60,7 @@ Open the index.html file in your browser to view the landing page.
 🌍 Live Demo
 
 🔗 Live Site: View on GitHub Pages or Vercel
-Go to https://hami-mini-market-alpha.vercel.app/
+Go to https://hami-mini-market-v-2.vercel.app/
 
 🧑‍💻 Developer
 
@@ -80,4 +78,5 @@ Go to https://hami-mini-market-alpha.vercel.app/
 
 Through this project, I practiced building a responsive and visually appealing webpage using core web technologies.
 It improved my understanding of semantic HTML, CSS Grid/Flexbox layouts, and basic JavaScript interactions.
+
 
