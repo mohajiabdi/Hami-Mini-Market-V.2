@@ -47,7 +47,7 @@ Display of at least 8 products (name, image, price, and category)
 
 Clone the repository:
 
-git clone https://github.com/mohajiabdi/Hami-Mini-Market/new/main
+git clone https://github.com/mohajiabdi/Hami-Mini-Market-V.2
 
 
 Open the project folder:
@@ -78,5 +78,6 @@ Go to https://hami-mini-market-v-2.vercel.app/
 
 Through this project, I practiced building a responsive and visually appealing webpage using core web technologies.
 It improved my understanding of semantic HTML, CSS Grid/Flexbox layouts, and basic JavaScript interactions.
+
 
 
