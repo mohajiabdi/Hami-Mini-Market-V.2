@@ -66,7 +66,7 @@ const products = [
     name: "Pineapple",
     category: "fruits",
     price: 7,
-    image: "asset/images/pineapple.jpg",
+    image: "asset/images/pineApple.jpg",
   },
   {
     name: "Watermelon",
@@ -230,3 +230,4 @@ displayProducts(products);
 
 // console.log(cartQuantities);
 // { Apple: 2, Carrot: 3, Mango: 1, ... }
+
