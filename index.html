@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="asset/images/HamiSkills.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>Hami Mini Market</title>
+  </head>
+  <body>
+    <div class="to-top" id="toTop"><a href="#">▲</a></div>
+    <header>
+      <div class="logo">
+        <a href="#">
+          <span class="hami">Hami</span><span class="mini"> Mini </span>
+          <span class="market">Market</span>
+          <!-- <img src="asset/images/HamiSkills.svg" alt="hh" /> -->
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+       <div class="nav-action">
+
+         <button class="themeToggle" id="themeToggle">🌙</button>
+         
+         <button class="cartBtn" id="cartBtn"><span class="cart">🛒</span>  <span id="showCount">0</span></button>
+        <button class="hamburger" id="hamburger">&#9776</button>
+       </div>
+      </nav>
+    </header>
+    <div class="gap"></div>
+
+    <section class="hero">
+      <div class="carousel">
+        <h1>
+          <span class="hami">Hami</span><span class="mini"> Mini </span>
+          <span class="market">Market</span>
+        </h1>
+        <div class="slides">
+          <img
+            src="https://images.unsplash.com/photo-1699986302642-41c55ec59948?auto=format&fit=crop&q=80&w=1374"
+            alt="Slide 1"
+          />
+          <img
+            src="https://images.pexels.com/photos/255469/pexels-photo-255469.jpeg"
+            alt="Slide 2"
+          />
+          <img
+            src="https://images.pexels.com/photos/1391490/pexels-photo-1391490.jpeg"
+            alt="Slide 3"
+          />
+          <img
+            src="https://images.pexels.com/photos/934055/pexels-photo-934055.jpeg"
+            alt="Slide 4"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="products" id="products">
+      <h2>Products</h2>
+      <div class="cards">
+        <div class="card">
+          <img
+            src="asset/images/avocado.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Avocado</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$3.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/tomato.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Tomatoes</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$2.99</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/banana.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Banana</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$2.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/grapes.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Grapes</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$2.99</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/kiwi.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Kiwi</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$3.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/lemon.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Lemon</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$1.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/watermelon.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>watermelon With Juice</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$2.4</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/beet.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Beet Fruit</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$2.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/corn.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Corn</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$2.2</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/bineApple.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>Pine Apple</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$3.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/pomegranates.jpeg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>pomegranates</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$4.5</p>
+        </div>
+        <div class="card">
+          <img
+            src="asset/images/strawberry.jpg"
+            alt="prduct image"
+            title="Carrots"
+          />
+          <h3>strawberry</h3>
+          <p class="description">
+            Delicious Vegetable good for Health.<br />Do nto miss Our Offer Now!
+          </p>
+          <p class="price">$3.9</p>
+        </div>
+      </div>
+    </section> -->
+    <section class="products" id="products">
+  <h2>Our Products</h2>
+
+  <!-- 🔍 Search + Filter -->
+  <div class="product-controls">
+    <input type="text" id="searchInput" placeholder="Search products..." />
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="fruits">Fruits</option>
+      <option value="vegetables">Vegetables</option>
+    </select>
+    <input type="range" id="priceFilter" min="0" max="10" step="0.5" value="10" />
+    <span id="priceValue">Max: $10</span>
+  </div>
+
+  <!-- 🛒 Product Grid -->
+  <div class="cards" id="productGrid"></div>
+</section>
+
+    <section class="about" id="about">
+      <h2>About</h2>
+      <div>
+        <p>
+          Hami Mini Market is a modern and convenient online shopping platform
+          designed to bring everyday essentials closer to you. Whether you’re
+          looking for groceries, household products, snacks, or personal care
+          items, Hami Mini Market offers a simple, fast, and reliable way to
+          shop from the comfort of your home.
+          <br />
+          <br />
+          <br />
+          <br />
+          Our website focuses on quality, affordability, and trust — making sure
+          customers always get the best value. With an intuitive design, secure
+          checkout, and responsive layout, the platform ensures a smooth
+          experience on any device.
+          <br />
+          <br />
+          <br />
+          At Hami Mini Market, we believe shopping should be easy, enjoyable,
+          and accessible to everyone.
+        </p>
+        <img src="asset/images/tomato.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <h2>Contacts</h2>
+      <form action="">
+        <label for="name"
+          >Full Name:
+          <input
+            type="text"
+            id="name"
+            class="name"
+            placeholder="Enter Your Full Name"
+            required
+        /></label>
+        <label for="email"
+          >Email Address:
+          <input
+            type="email"
+            id="email"
+            class="email"
+            placeholder="Enter Your Email Address"
+            required
+        /></label>
+        <label for="phone"
+          >Phone Number:
+          <input
+            type="tel"
+            id="phone"
+            class="phone"
+            placeholder="Enter Your Phone Number"
+            required
+        /></label>
+        <label for="message"
+          >Message:
+          <textarea
+            id="message"
+            class="message"
+            placeholder="Enter Your Message"
+            cols="10"
+            rows="10"
+            required
+          ></textarea>
+        </label>
+        <label for="submit"> <input type="submit" name="" id="submit" /></label>
+      </form>
+    </section>
+
+    <footer>
+    <div class="footer">
+          <div class="social">
+        <h3>Hami Mini Market</h3>
+        <p>Your Best Vegetable and Fruits Mini Market</h3>
+        <p>Your Best Vegetable and Fruits Mini Market</h3>
+            <div>
+                <div class="box-icon"><img src="asset/icons/facebook-app-symbol.png" class="icon" alt=""></div>
+                <div class="box-icon"><img src="asset/icons/instagram.png" class="icon" alt=""></div>
+                <div class="box-icon"><img src="asset/icons/whatsapp.png" class="icon" alt=""></div>
+                <div class="box-icon"><img src="asset/icons/linkedin.png" class="icon" alt=""></div>
+                <div class="box-icon"><img src="asset/icons/twitter.png" class="icon" alt=""></div>
+                
+            </div>
+      </div>
+      <div class="foot-nav"> 
+          <h3>Quick Navigation</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul></div>
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+       <div>
+         <p><span><svg xmlns="http://www.w3.org/2000/svg" 
+     class="sm-icon"
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="2" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0Z"/>
+  <circle cx="12" cy="10" r="3"/>
+</svg>
+</span> Mogadisu Somali</p>
+        <p><span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+     class="sm-icon"
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="0" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.15 9.81 19.86 19.86 0 0 1 .08 1.18 2 2 0 0 1 2.06 0h3a2 2 0 0 1 2 1.72c.12.81.37 1.6.72 2.34a2 2 0 0 1-.45 2.18L6.1 7.9a16 16 0 0 0 10 10l1.66-1.23a2 2 0 0 1 2.18-.45c.74.35 1.53.6 2.34.72a2 2 0 0 1 1.72 2z"/>
+</svg>
+
+        </span>(252)XXX-XXX</p>
+        <p><span><svg xmlns="http://www.w3.org/2000/svg" 
+    class="sm-icon"
+     viewBox="0 0 24 24" 
+     fill="none" 
+     stroke="currentColor" 
+     stroke-width="1" 
+     stroke-linecap="round" 
+     stroke-linejoin="round">
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+</svg>
+</span>info@hamimarket.com</p>
+       </div>
+      </div>
+    </div>
+    
+      <div class="copyright">
+        &copy; All Rights Reserved for Hami Mini Market 2025
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
